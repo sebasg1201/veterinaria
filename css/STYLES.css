@@ -1,10 +1,16 @@
+body{
+  background-color: #6B7280;
+}
+
+
 .site-header {
   display: flex;
-  background-color: rgb(242, 239, 239);
+  background-color: rgb(254, 254, 254);
   padding: 10px;
   border-radius: 30px ;
   border: 40px;
-    margin: 30px;
+  justify-content: space-between;
+  margin: 30px;
   text-align: center;
   font-size: 20px;
   box-shadow: 6px 6px 8px mediumturquoise ;
@@ -22,8 +28,8 @@
 }
 
 .logo img{
-  height: 80px;
-  margin-right: 40px;
+  height: 100px;
+  margin-right: 70px;
 }
 
 .logo h1{
@@ -47,6 +53,26 @@ overflow: hidden;
 
 .nav-content-end:hover{
 color: black;
+}
+
+.sidebar {
+    max-width: 700px;
+    margin: 50px ;
+    justify-self: end;
+    padding: 40px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    border-top: 6px solid var(--primary-color);
+}
+
+.container-left{
+    max-width: 700px;
+    margin: 10px ;
+    justify-self:left;
+    padding: 40px;
+    margin-top: -680px;
+    margin-left: 80px;
 }
 
 :root {
@@ -75,6 +101,10 @@ color: black;
       border-top: 6px solid var(--primary-color);
     }
 
+    .cont-genl{
+      background-color: 60px #6B7280;
+      
+    }
 
     .img-line {
       display: flex;
@@ -102,6 +132,7 @@ color: black;
 
     .form-label {
       font-weight: 500;
+      justify-content: center;
       color: var(--text-dark);
     }
 
@@ -115,7 +146,7 @@ color: black;
 
     .form-group-custom {
       margin-bottom: 2rem;
-    }
+      }
 
     .btn-custom:hover {
       background-color: var(--secondary-color);
