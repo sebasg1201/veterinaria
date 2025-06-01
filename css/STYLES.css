@@ -1,5 +1,5 @@
 body{
-  background-color: #6B7280;
+  background-color: #afb5c1;
 }
 
 
@@ -26,10 +26,28 @@ body{
   cursor: pointer;
   padding: 0.5rem 1rem;
 }
+.container-formulario{
+  justify-content: center;
+}
+
+  .form-butt{
+  text-decoration: none;      /* Quita el subrayado */
+  color: #000000;             /* Color del texto */
+  font-weight: bold;          /* Texto en negrita */
+  border-radius: 8px;         /* Bordes redondeados */
+  padding: 6px 12px;          /* Espaciado interno */
+  background-color: rgb(113, 232, 228);  /* Fondo del enlace */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.form-butt:hover {
+  background-color: #cce4ff;
+  color: #003366;
+}
 
 .logo img{
   height: 100px;
-  margin-right: 70px;
+  margin-right:auto;
 }
 
 .logo h1{
@@ -37,11 +55,11 @@ body{
 }
 
 .main-nav ul {
-display: flex;
-list-style: none;
-padding: 30px;
-margin: 40px;
-overflow: hidden;
+  display: flex;
+  list-style: none;
+  padding: 30px;
+  margin: 40px;
+  overflow: hidden;
 }
 
 .main-nav li{
@@ -110,13 +128,13 @@ color: black;
       display: flex;
       justify-content: center; 
       align-items: center;     
-      padding: auto;         
+      padding: auto;
 }
 
     .imag-center {
       display: flex;
       justify-content:center; 
-      align-items: center;     
+      align-items: center;
       height: 100vh;
       max-width: 100%;
       height: auto;
@@ -169,7 +187,7 @@ color: black;
       border: 1px solid #ccc;   
       padding: 10px;
       border-radius: 5px;
-      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+      box-shadow: 2px 2px 5px rgba(234, 3, 3, 0.2); 
       transition: box-shadow 0.3s ease
    }
 
@@ -186,6 +204,7 @@ color: black;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
+    border-radius: 50px;
 }
 .social-media img:hover {
     transform: scale(1.2);
